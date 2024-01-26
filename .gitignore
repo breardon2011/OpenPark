@@ -37,7 +37,6 @@ cc1s-cache/
 *.app
 
 # Ignore specific C/C++ headers and related files often found in the build directories
-*.h
 *.h.gch
 
 # Ignore files and directories containing '@nix' in the path
