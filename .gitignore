@@ -1,0 +1,44 @@
+
+# Ignore all files in the cc1s-cache directory
+cc1s-cache/
+
+# Ignore files with the .h.blob extension
+*.h.blob
+
+# Common C++ build artifacts and folders to ignore
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Ignore specific C/C++ headers and related files often found in the build directories
+*.h
+*.h.gch
+
+# Ignore files and directories containing '@nix' in the path
+*@nix*
